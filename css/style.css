@@ -1,26 +1,40 @@
+html {
+	font-size: 16px;
+}
+
 body {
 	background-color: #f0e1c5;
 }
 a {
 	color: #a38562;
 	text-decoration: none;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
 }
 a:hover {
 	color: #4d351b;
+	-webkit-transition: .2s;
+	 -o-transition: .2s;
+	 transition: .2s; 
+}
+.container {
+	background-color: #f4e8d7;
 }
 .hero-header {
-	height: 350px;
-	width: 100%;
+	height: 610px;
+	margin-left: 15px;
+	margin-right: 15px;
 	background-image: url(/img/header.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 0 0;
 }
 .sec-head {
+	padding: 10px;
 	text-align: center;
 	text-transform: uppercase;
 }
 .main-link {
+	margin-top: 10px;
 	position: relative;
 	height: 200px;
 	background-size: cover;
@@ -46,9 +60,10 @@ a:hover {
 	-webkit-transition: 0.4s ease;
 	-o-transition: 0.4s ease;
 	transition: 0.4s ease;
+	text-transform: uppercase;
 }
 .main-link p {
-	color: #fff;
+	color: #f4e8d7;
 	margin-top: 30px;
 	opacity: 0;
 	-webkit-transition: 0.5s ease;
@@ -65,9 +80,12 @@ a:hover {
 .main-link:hover h4 {
 	margin-top: 0px;
 	opacity: 1;
+	color: #a38562;
+	text-transform: uppercase;
 }
 .nav {
 	position: relative;
+	margin-top: 2px;
 }
 .nav-links {
 	position: absolute;
@@ -77,4 +95,136 @@ a:hover {
 .nav-links a {
 	margin-left: 20px;
 	text-transform: uppercase;
+	text-decoration: none;
 }
+
+.third-head {
+	text-align: center;
+	text-transform: uppercase;
+}
+.third-head p {
+	text-transform: none;
+}
+.gal-head {
+	background-image: url(/img/coffee-beans.jpg);
+	background-size: cover;
+	position: relative;
+	height: 700px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+.gal-head h4 {
+	width: 100%;
+	text-align: left;
+	text-transform: uppercase;
+	color: #f9f2ec;
+	margin-top: 550px;
+	background-color: #222;
+	background-color: rgba(0,0,0,0.7);
+	-webkit-transition: .7s ease;
+	 -o-transition: .7s ease;
+	 transition: .7s ease; 
+}
+.gal-head:hover h4 {
+	margin-top: 500px;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+	padding-bottom: 80px;
+}
+.gal-head p {
+	width: 100%;
+	margin-top: -85px;
+	text-align: left;
+	text-transform: none;
+	color: #f2e6d9;
+	padding-left: 15px;
+	-webkit-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+	opacity: 0;
+}
+.gal-head:hover p {
+	margin-top: -85px;
+	opacity: 1;
+	-webkit-transition: .9s;
+	-o-transition: .9s;
+	transition: .9s;
+}
+.gal-lis {
+	margin-top: 55px;
+	padding: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.gal {
+	height: 250px;
+	
+	position: relative;
+	background-size: cover;
+}
+.banner {
+	margin-top: 330px;
+	height: 130px;
+	background-color: #a49685;
+}
+.icon {
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.icon p {
+	text-align: left;
+	width: 70%;
+	margin-right: 220px;
+	float: right;
+}
+.icon h4 {
+	text-align: left;
+	width: 70%;
+	margin-right: 220px;
+	float: right;
+	margin-top: -20px;
+}
+.head-news {
+	margin-top: 40px;
+}
+.news {
+	background-color: ;
+}
+.news h4 {
+	text-align: center;
+	font-size: 50pt;
+}
+.news p {
+	text-align: center;
+}
+.coffee {
+	height: 500px;
+	padding-left: 20px;
+	background-color: ;
+}
+.coffee h3 {
+
+	text-shadow: 1px 1px 1px #4d351b;
+}
+.coffee-type {
+	height: 250px;
+	width: 353px;
+	position: relative;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,25 +5,27 @@
 	<script text="text/javascript" src="/lib/angular/angular.min.js"></script>
 	<script text="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
 	<script text="text/javascript" src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script text="text/javascript" src="/js/script.js"></script>
 	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/stylesheet.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<title>Swork</title>
 </head>
-<body>
+<body ng-app="myApp">
 	<div class="container">
 		<div class="row nav">
 			<div class="logo">
-				<img src="http://placehold.it/300x200" alt="">
+				<img style="margin-bottom: 5px; margin-top: -20px; width: 200px; height: 150px; margin-left: 15px;" src="/img/logo.png" alt="">
 			</div>
-			<div class="nav-links">
-				<a href="#">Lorem</a>
-				<a href="#">Reiciendis</a>
-				<a href="#">Nobis</a>
-				<a href="#">Illo</a>
+			<div class="nav-links" style="margin-right: 25px; margin-top: 25px;">
+				<a style="color: #4d351b;" href="#home">Home</a>
+				<a href="#shop">Shop</a>
+				<a href="#about">About</a>
+				<a href="#blog">Blog</a>
 			</div>
 		</div>
 		<div class="row">
-			<div class="hero-header">
+			<div style="" class="hero-header">
 
 			</div>
 		</div>
@@ -32,33 +34,93 @@
 				<h3>Made Fresh Daily</h3>
 			</div>	
 			<div class="col-md-4">
-				<div class="main-link" style="background-image: url(/img/shop.jpg);">
+				<div class="main-link" style="height: 250px; background-image: url(/img/shop.jpg);">
 					<div class="overlay"></div>
 					<div class="inner">
-						<h4>Lorem.</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dolores, tenetur nihil.</p>
+						<h4>- Shop -</h4>
+						<p>Yung tindahan.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="main-link" style="background-image: url(/img/blog.jpg);">
+				<div class="main-link" style="height: 250px; background-image: url(/img/blog.jpg);">
 					<div class="overlay"></div>
 					<div class="inner">
-						<h4>Dicta?</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique facilis voluptatum iste.</p>
+						<h4>- Blog -</h4>
+						<p>Kapag natutulog ka at nahulog ka sa higaan mo. Yun yung tunong "BLOG!"</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="main-link" style="background-image: url(/img/location.jpg);">
+				<div class="main-link" style="height: 250px; background-image: url(/img/location.jpg);">
 					<div class="overlay"></div>
 					<div class="inner">
-						<h4>Non!</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, est sit corrupti?</p>
+						<h4>- Location -</h4>
+						<p>Doon sa Eagle Rock.</p>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="third-head">
+				<h3 style="font-size: 50pt;">Gallery</h3>
+				<p>Succes + Work = Swrok. That's the recipe for everything we do.</p>
+			</div>
+		</div>
+		<div class="row gal-head">
+			<h4 style="font-size: 60pt; padding-left: 5px;">Coffee Roaster</h4>
+			<p style="font-size: 15pt;">Try mo masarap ito! Dali! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nisi nihil repudiandae! Autem, rerum. Et atque eaque iste! Harum, error.</p>
+		</div>
+		<div class="row gal-lis">
+			<div class="col-md-2 col-md-offset-1">
+				<div class="gal" style="background-image: url(/img/coffee-bread5.jpg)"></div>
+			</div>
+			<div class="col-md-2">
+				<div class="gal" style="background-image: url(/img/coffee-bread2.jpg)"></div>
+			</div>
+			<div class="col-md-2">
+				<div class="gal" style="background-image: url(/img/coffee-bread3.jpg)"></div>
+			</div>
+			<div class="col-md-2">
+				<div class="gal" style="background-image: url(/img/coffee-bread4.jpg)"></div>
+			</div>
+			<div class="col-md-2">
+				<div class="gal" style="background-image: url(/img/coffee-bread1.jpg)"></div>
+			</div>
+		<div class="row banner">
+			<div class="icon">
+				<img style="height: 100px; width: 100px" src="/img/icon.png" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque soluta, aut aspernatur officiis ea eum quod vitae, sit culpa fugiat voluptatibus autem ipsam tempora delectus eveniet ut omnis cupiditate laborum fuga blanditiis. Laborum quos atque recusandae blanditiis.</p>
+				<h4>Los Angeles, CA</h4>
+			</div>
+		</div>
+		<div class="row head-news">
+			<div class="news">
+				<h4>NEWS</h4>
+				<p>Kapag tinikman mo ang kape namin mapapaso ka dahil kakaiba yung init nito. Parang naka weeds.</p>
+			</div>
+		</div>
+		<div class="row coffee">
+			<div class="col-md-4">
+				<h3>Cappuccino</h3>
+				<div class="coffee-type" style="background-image: url(/img/cappuccino.jpg);"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, impedit.</p>
+			</div>
+			<div class="col-md-4">
+				<h3>Latte</h3>
+				<div class="coffee-type" style="background-image: url(/img/mocha.jpg);"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, laborum.</p>
+			</div>
+			<div class="col-md-4">
+				<h3>Mocha</h3>
+				<div class="coffee-type" style="background-image: url(/img/latte.jpg);"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, recusandae.</p>
+			</div>
+		</div>
+
+		
+		
+
 	</div>
 </body>
 </html>
